@@ -12,6 +12,7 @@ int completion[4] = {0};	// Same as above
 const arrival =0, burst =1;	// Used to refer to the corresponding values in the 'process' array
 int currenTime = 0;
 
+
 COORD coord = {0, 0};	// Variable used to position the cursor on the console
 
 int updatePriority();	// Declaration of the function used to calculate the priorities
@@ -30,6 +31,7 @@ currenTime += process[next][burst];	 //Updating the current execution time by bu
 		process[next][burst] = 0;
 		priority[next] = 0;
 	}
+	
 	
 	int turnAroundSum = 0;
 	int waitingSum = 0;
