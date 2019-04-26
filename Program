@@ -2,6 +2,7 @@
 #include<windows.h>
 #include <string.h>
 #include <conio.h>
+#include<stdlib.h>
 
 int process[4][2] ={{0, 20},{5, 36},{13, 19},{17, 42}}; //Arrival and Burst times respectively
 float priority[4] = {0.0};	// Array to calculate and store priorities of the processes initialized to '0'
