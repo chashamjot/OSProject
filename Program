@@ -47,7 +47,7 @@ currenTime += process[next][burst];	 //Updating the current execution time by bu
 	float waitingAvg = waitingSum/4.0;
 	float turnAroundAvg = turnAroundSum/4.0;
 	
-printf("---------------------------------------------------------------------------------------------");
+printf("----------------------------------------------------------------------------------------------");
 	z = 1;
 	cursorPos(8, z);
 	printf("Process");
