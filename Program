@@ -36,6 +36,7 @@ currenTime += process[next][burst];	 //Updating the current execution time by bu
 	}
 	
 	
+	
 	int turnAroundSum = 0;
 	int waitingSum = 0;
 	for(i=0; i<4; i++) {
